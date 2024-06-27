@@ -41,7 +41,8 @@ class RegistrationVC: UIViewController {
         }else if sender == revealBtn{
             revealAction()
         }else{
-            
+            let vc = Registration2VC()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -59,7 +60,7 @@ class RegistrationVC: UIViewController {
         confirmPassLbl.setFont(type: .medium, size: 13)
         confirmPassTF.font = UIFont.poppinsFont(type: .regular, size: 13)
         
-        continueBtn.setAttributedTitle("Lanjutkan", poppinsFont: .medium, size: 13, for: .normal)
+        continueBtn.setAttributedTitle("Lanjutkan", poppinsFont: .medium, size: 13, color: .white, for: .normal)
         botView.shadowUIView(offset: .zero, opacity: 0.15, radius: 2)
     }
     

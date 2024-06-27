@@ -9,21 +9,45 @@ import UIKit
 
 class CalendarVC: UIViewController {
 
+
+    @IBOutlet weak var bgView: UIView!
+    @IBOutlet weak var dismissView: UIView!
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
+    @IBOutlet weak var continueBtn: UIButton!
+
+    @IBOutlet weak var titleLbl: UILabel!
+    var completion: ((Date)->Void)?
+    
+    var minimumDate: Date?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .clear
+        dismissView.backgroundColor = .black.withAlphaComponent(0.4)
+        bgView.roundCorners(corners: [.topLeft, .topRight], radius: 14)
+        bgView.backgroundColor = .white
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewDismiss))
+        dismissView.addGestureRecognizer(tapGesture)
+        
+        datePicker.minimumDate = minimumDate
+        
+        titleLbl.setFont(type: .semiBold, size: 14)
+        continueBtn.setAttributedTitle("Pilih", poppinsFont: .medium, size: 13, color: .white, for: .normal)
+    }
+    
+    @objc func viewDismiss() {
+        dismiss(animated: true)
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func didTapButton(_ sender: UIButton) {
+        dismiss(animated: true){[weak self] in
+            if sender.tag == 1 {
+                self?.completion?(self?.datePicker.date ?? Date())
+            }
+        }
     }
-    */
 
 }
+

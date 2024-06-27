@@ -9,15 +9,17 @@ import UIKit
 
 class ListTVC: UITableViewCell {
 
+    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var radioBtnImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        titleLbl.setFont(type: .regular, size: 14)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func setup(data: String, isSelected: Bool){
+        titleLbl.text = data
+        radioBtnImage.image = isSelected ? UIImage(named: "Radio Button Checked") : UIImage(named: "Radio Button")
     }
     
 }
