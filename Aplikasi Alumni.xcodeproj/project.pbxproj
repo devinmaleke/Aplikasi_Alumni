@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16DD07742C4FF17100CDFA0C /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD07722C4FF17100CDFA0C /* NewsVC.swift */; };
+		16DD07752C4FF17100CDFA0C /* NewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD07732C4FF17100CDFA0C /* NewsVC.xib */; };
+		16DD07792C4FF32000CDFA0C /* NewsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD07772C4FF32000CDFA0C /* NewsCVC.swift */; };
+		16DD077A2C4FF32000CDFA0C /* NewsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD07782C4FF32000CDFA0C /* NewsCVC.xib */; };
+		16DD077D2C4FF99300CDFA0C /* NewsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD077B2C4FF99300CDFA0C /* NewsTVC.swift */; };
+		16DD077E2C4FF99300CDFA0C /* NewsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD077C2C4FF99300CDFA0C /* NewsTVC.xib */; };
 		16DE23532C11F39E005E3BF1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23522C11F39E005E3BF1 /* Poppins-Regular.ttf */; };
 		16DE23552C11F3A7005E3BF1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23542C11F3A7005E3BF1 /* Poppins-SemiBold.ttf */; };
 		16DE23572C11F3AF005E3BF1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23562C11F3AF005E3BF1 /* Poppins-Medium.ttf */; };
+		16E980C92C3520E0002089F7 /* MyEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E980C72C3520E0002089F7 /* MyEventVC.swift */; };
+		16E980CA2C3520E0002089F7 /* MyEventVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E980C82C3520E0002089F7 /* MyEventVC.xib */; };
+		16E980CE2C3525A4002089F7 /* MyEventTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E980CC2C3525A4002089F7 /* MyEventTVC.swift */; };
+		16E980CF2C3525A4002089F7 /* MyEventTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E980CD2C3525A4002089F7 /* MyEventTVC.xib */; };
+		16E980D22C352874002089F7 /* MyEventEditTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E980D02C352874002089F7 /* MyEventEditTVC.swift */; };
+		16E980D32C352874002089F7 /* MyEventEditTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E980D12C352874002089F7 /* MyEventEditTVC.xib */; };
+		16E980D72C3543EA002089F7 /* SosialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E980D52C3543EA002089F7 /* SosialVC.swift */; };
+		16E980D82C3543EA002089F7 /* SosialVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E980D62C3543EA002089F7 /* SosialVC.xib */; };
+		16E980DB2C3544DA002089F7 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E980DA2C3544DA002089F7 /* CustomSegmentedControl.swift */; };
+		16E980E12C3551E0002089F7 /* GroupTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E980DF2C3551E0002089F7 /* GroupTVC.swift */; };
+		16E980E22C3551E0002089F7 /* GroupTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E980E02C3551E0002089F7 /* GroupTVC.xib */; };
 		531545B22C0C8BB00065F8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531545B12C0C8BB00065F8D0 /* AppDelegate.swift */; };
 		531545B42C0C8BB00065F8D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531545B32C0C8BB00065F8D0 /* SceneDelegate.swift */; };
 		531545B62C0C8BB00065F8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531545B52C0C8BB00065F8D0 /* ViewController.swift */; };
@@ -74,9 +91,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16DD07722C4FF17100CDFA0C /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		16DD07732C4FF17100CDFA0C /* NewsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsVC.xib; sourceTree = "<group>"; };
+		16DD07772C4FF32000CDFA0C /* NewsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCVC.swift; sourceTree = "<group>"; };
+		16DD07782C4FF32000CDFA0C /* NewsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCVC.xib; sourceTree = "<group>"; };
+		16DD077B2C4FF99300CDFA0C /* NewsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTVC.swift; sourceTree = "<group>"; };
+		16DD077C2C4FF99300CDFA0C /* NewsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTVC.xib; sourceTree = "<group>"; };
 		16DE23522C11F39E005E3BF1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		16DE23542C11F3A7005E3BF1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		16DE23562C11F3AF005E3BF1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		16E980C72C3520E0002089F7 /* MyEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventVC.swift; sourceTree = "<group>"; };
+		16E980C82C3520E0002089F7 /* MyEventVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyEventVC.xib; sourceTree = "<group>"; };
+		16E980CC2C3525A4002089F7 /* MyEventTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventTVC.swift; sourceTree = "<group>"; };
+		16E980CD2C3525A4002089F7 /* MyEventTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyEventTVC.xib; sourceTree = "<group>"; };
+		16E980D02C352874002089F7 /* MyEventEditTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventEditTVC.swift; sourceTree = "<group>"; };
+		16E980D12C352874002089F7 /* MyEventEditTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyEventEditTVC.xib; sourceTree = "<group>"; };
+		16E980D52C3543EA002089F7 /* SosialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosialVC.swift; sourceTree = "<group>"; };
+		16E980D62C3543EA002089F7 /* SosialVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SosialVC.xib; sourceTree = "<group>"; };
+		16E980DA2C3544DA002089F7 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		16E980DF2C3551E0002089F7 /* GroupTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTVC.swift; sourceTree = "<group>"; };
+		16E980E02C3551E0002089F7 /* GroupTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTVC.xib; sourceTree = "<group>"; };
 		531545AE2C0C8BB00065F8D0 /* Aplikasi Alumni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aplikasi Alumni.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531545B12C0C8BB00065F8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		531545B32C0C8BB00065F8D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +190,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16DD07712C4FF13100CDFA0C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				16DD07722C4FF17100CDFA0C /* NewsVC.swift */,
+				16DD07732C4FF17100CDFA0C /* NewsVC.xib */,
+				16DD07762C4FF2FD00CDFA0C /* Content */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		16DD07762C4FF2FD00CDFA0C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				16DD077B2C4FF99300CDFA0C /* NewsTVC.swift */,
+				16DD077C2C4FF99300CDFA0C /* NewsTVC.xib */,
+				16DD07772C4FF32000CDFA0C /* NewsCVC.swift */,
+				16DD07782C4FF32000CDFA0C /* NewsCVC.xib */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		16E980CB2C352560002089F7 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				16E980CC2C3525A4002089F7 /* MyEventTVC.swift */,
+				16E980CD2C3525A4002089F7 /* MyEventTVC.xib */,
+				16E980D02C352874002089F7 /* MyEventEditTVC.swift */,
+				16E980D12C352874002089F7 /* MyEventEditTVC.xib */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		16E980D42C3543C6002089F7 /* Sosial */ = {
+			isa = PBXGroup;
+			children = (
+				16E980D52C3543EA002089F7 /* SosialVC.swift */,
+				16E980D62C3543EA002089F7 /* SosialVC.xib */,
+				16E980DC2C354D81002089F7 /* Content */,
+			);
+			path = Sosial;
+			sourceTree = "<group>";
+		};
+		16E980D92C3544BA002089F7 /* Custom Segmented */ = {
+			isa = PBXGroup;
+			children = (
+				16E980DA2C3544DA002089F7 /* CustomSegmentedControl.swift */,
+			);
+			path = "Custom Segmented";
+			sourceTree = "<group>";
+		};
+		16E980DC2C354D81002089F7 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				16E980DF2C3551E0002089F7 /* GroupTVC.swift */,
+				16E980E02C3551E0002089F7 /* GroupTVC.xib */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		531545A52C0C8BB00065F8D0 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +302,8 @@
 				531545F82C0DAA2D0065F8D0 /* OTP */,
 				531545C92C0C8CE40065F8D0 /* Login */,
 				531546042C0DB6530065F8D0 /* Home */,
+				16E980D42C3543C6002089F7 /* Sosial */,
+				16DD07712C4FF13100CDFA0C /* News */,
 				531546252C0F00780065F8D0 /* Profile */,
 			);
 			path = View;
@@ -278,6 +373,7 @@
 		531545E32C0D78730065F8D0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				16E980D92C3544BA002089F7 /* Custom Segmented */,
 				5388DDA62C10637A00A58688 /* Delete Modal */,
 				531545ED2C0D81820065F8D0 /* List */,
 				531545E42C0D78870065F8D0 /* Calendar */,
@@ -460,6 +556,9 @@
 		5388DDB72C116A6A00A58688 /* My Event */ = {
 			isa = PBXGroup;
 			children = (
+				16E980C72C3520E0002089F7 /* MyEventVC.swift */,
+				16E980C82C3520E0002089F7 /* MyEventVC.xib */,
+				16E980CB2C352560002089F7 /* Content */,
 			);
 			path = "My Event";
 			sourceTree = "<group>";
@@ -564,6 +663,7 @@
 			files = (
 				531546382C10154A0065F8D0 /* FeedsCVC.xib in Resources */,
 				531545D42C0C968C0065F8D0 /* LoginVC.xib in Resources */,
+				16E980CF2C3525A4002089F7 /* MyEventTVC.xib in Resources */,
 				5315461A2C0ECB780065F8D0 /* ClosestEventCVC.xib in Resources */,
 				5315461F2C0ED5480065F8D0 /* NewestNewsTVC.xib in Resources */,
 				5388DDB02C106CDD00A58688 /* SettingVC.xib in Resources */,
@@ -573,13 +673,17 @@
 				5315462D2C0F0AE50065F8D0 /* ProfileSelectionCVC.xib in Resources */,
 				5388DDA42C10587100A58688 /* OptionListVC.xib in Resources */,
 				5315460C2C0EB6630065F8D0 /* MainContentTVC.xib in Resources */,
+				16E980E22C3551E0002089F7 /* GroupTVC.xib in Resources */,
+				16DD07752C4FF17100CDFA0C /* NewsVC.xib in Resources */,
 				5388DDC12C116F6F00A58688 /* MyNewsTVC.xib in Resources */,
 				531545BE2C0C8BB10065F8D0 /* Base in Resources */,
+				16E980CA2C3520E0002089F7 /* MyEventVC.xib in Resources */,
 				531546162C0ECA4E0065F8D0 /* ClosestEventTVC.xib in Resources */,
 				531545EC2C0D799A0065F8D0 /* CalendarVC.xib in Resources */,
 				5388DDBC2C116AAD00A58688 /* MyNewsVC.xib in Resources */,
 				531546342C0F19170065F8D0 /* FeedsTVC.xib in Resources */,
 				5388DDB52C107A3500A58688 /* ChangeProfileVC.xib in Resources */,
+				16DD077A2C4FF32000CDFA0C /* NewsCVC.xib in Resources */,
 				531545B92C0C8BB00065F8D0 /* Base in Resources */,
 				531545E22C0D67F20065F8D0 /* Registration2VC.xib in Resources */,
 				531545FF2C0DAA580065F8D0 /* OtpVC.xib in Resources */,
@@ -587,12 +691,15 @@
 				5388DDC52C116F8000A58688 /* MyNewsEditTVC.xib in Resources */,
 				5388DD962C1047A500A58688 /* ExperienceTVC.xib in Resources */,
 				531545F72C0D83290065F8D0 /* ListTVC.xib in Resources */,
+				16DD077E2C4FF99300CDFA0C /* NewsTVC.xib in Resources */,
 				531545DC2C0D60DC0065F8D0 /* RegistrationVC.xib in Resources */,
 				16DE23572C11F3AF005E3BF1 /* Poppins-Medium.ttf in Resources */,
 				531546072C0DB6710065F8D0 /* HomeVC.xib in Resources */,
 				16DE23532C11F39E005E3BF1 /* Poppins-Regular.ttf in Resources */,
 				5388DDA92C10639400A58688 /* DeleteModalVC.xib in Resources */,
 				531546102C0EB89A0065F8D0 /* MainContentCVC.xib in Resources */,
+				16E980D82C3543EA002089F7 /* SosialVC.xib in Resources */,
+				16E980D32C352874002089F7 /* MyEventEditTVC.xib in Resources */,
 				16DE23552C11F3A7005E3BF1 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,16 +754,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5388DDBB2C116AAD00A58688 /* MyNewsVC.swift in Sources */,
+				16DD07742C4FF17100CDFA0C /* NewsVC.swift in Sources */,
 				531546292C0F083B0065F8D0 /* ProfileVC.swift in Sources */,
 				5388DDB12C106CDD00A58688 /* SettingVC.swift in Sources */,
 				531546202C0ED5480065F8D0 /* NewestNewsTVC.swift in Sources */,
 				5388DDC02C116F6F00A58688 /* MyNewsTVC.swift in Sources */,
 				531545D72C0C9F260065F8D0 /* Extensions.swift in Sources */,
+				16DD07792C4FF32000CDFA0C /* NewsCVC.swift in Sources */,
 				5315462E2C0F0AE50065F8D0 /* ProfileSelectionCVC.swift in Sources */,
 				531545F62C0D83290065F8D0 /* ListTVC.swift in Sources */,
+				16E980CE2C3525A4002089F7 /* MyEventTVC.swift in Sources */,
 				531545DB2C0D60DC0065F8D0 /* RegistrationVC.swift in Sources */,
 				5388DDA52C10587100A58688 /* OptionListVC.swift in Sources */,
 				531545B62C0C8BB00065F8D0 /* ViewController.swift in Sources */,
+				16E980C92C3520E0002089F7 /* MyEventVC.swift in Sources */,
 				5315460D2C0EB6630065F8D0 /* MainContentTVC.swift in Sources */,
 				5388DDC42C116F8000A58688 /* MyNewsEditTVC.swift in Sources */,
 				531546242C0EE7CE0065F8D0 /* NewestNewsCVC.swift in Sources */,
@@ -665,8 +776,10 @@
 				531545F22C0D81CB0065F8D0 /* ListVC.swift in Sources */,
 				531546002C0DAA580065F8D0 /* OtpVC.swift in Sources */,
 				531545B22C0C8BB00065F8D0 /* AppDelegate.swift in Sources */,
+				16E980E12C3551E0002089F7 /* GroupTVC.swift in Sources */,
 				531545E12C0D67F20065F8D0 /* Registration2VC.swift in Sources */,
 				531546112C0EB89A0065F8D0 /* MainContentCVC.swift in Sources */,
+				16E980DB2C3544DA002089F7 /* CustomSegmentedControl.swift in Sources */,
 				531546172C0ECA4E0065F8D0 /* ClosestEventTVC.swift in Sources */,
 				531545D32C0C968C0065F8D0 /* LoginVC.swift in Sources */,
 				5388DDB62C107A3500A58688 /* ChangeProfileVC.swift in Sources */,
@@ -674,9 +787,12 @@
 				5388DD972C1047A500A58688 /* ExperienceTVC.swift in Sources */,
 				5388DDAA2C10639400A58688 /* DeleteModalVC.swift in Sources */,
 				531546392C10154A0065F8D0 /* FeedsCVC.swift in Sources */,
+				16DD077D2C4FF99300CDFA0C /* NewsTVC.swift in Sources */,
+				16E980D22C352874002089F7 /* MyEventEditTVC.swift in Sources */,
 				531545B42C0C8BB00065F8D0 /* SceneDelegate.swift in Sources */,
 				5315461B2C0ECB780065F8D0 /* ClosestEventCVC.swift in Sources */,
 				531546352C0F19170065F8D0 /* FeedsTVC.swift in Sources */,
+				16E980D72C3543EA002089F7 /* SosialVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,6 +954,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -869,6 +986,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

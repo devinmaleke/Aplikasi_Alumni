@@ -28,7 +28,7 @@ class MyNewsEditTVC: UITableViewCell {
     private func initLoad(){
         newsImage.layer.cornerRadius = 8
         timeLabel.setFont(type: .regular, size: 12)
-        timeLabel.setFont(type: .medium, size: 14)
+        titleLabel.setFont(type: .medium, size: 14)
         categoryLbl.setFont(type: .regular, size: 12)
 //        totalAlumniLabel.setFont(type: .regular, size: 12)
         bgCategory.layer.cornerRadius = 4

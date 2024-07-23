@@ -16,9 +16,9 @@ class TabBarMenu: UITabBarController {
     
     private func initialUI() {
         let vc1 = HomeVC()
-        let vc2 = HomeVC()
+        let vc2 = SosialVC()
         let vc3 = HomeVC()
-        let vc4 = HomeVC()
+        let vc4 = NewsVC()
         let vc5 = HomeVC()
         
         vc1.title = "Beranda"

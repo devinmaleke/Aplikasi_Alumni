@@ -215,7 +215,12 @@ extension ProfileVC: DidTapSettingButton{
     }
     
     func didTappedMyEventBtn() {
-        
+        dismiss(animated: false)
+        let vc = MyEventVC()
+        vc.modalPresentationStyle = .overFullScreen
+        vc.modalTransitionStyle = .crossDissolve
+        present(vc, animated: false)
+        view.presentRightLeft()
     }
     
     func didTappedLogOut() {
