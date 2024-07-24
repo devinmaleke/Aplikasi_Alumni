@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16032FB02C5150F40027A401 /* CalendarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16032FAE2C5150F40027A401 /* CalendarTVC.swift */; };
+		16032FB12C5150F40027A401 /* CalendarTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16032FAF2C5150F40027A401 /* CalendarTVC.xib */; };
+		16032FB42C5154640027A401 /* CalendarEventCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16032FB22C5154640027A401 /* CalendarEventCVC.swift */; };
+		16032FB52C5154640027A401 /* CalendarEventCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16032FB32C5154640027A401 /* CalendarEventCVC.xib */; };
 		16DD07742C4FF17100CDFA0C /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD07722C4FF17100CDFA0C /* NewsVC.swift */; };
 		16DD07752C4FF17100CDFA0C /* NewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD07732C4FF17100CDFA0C /* NewsVC.xib */; };
 		16DD07792C4FF32000CDFA0C /* NewsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD07772C4FF32000CDFA0C /* NewsCVC.swift */; };
 		16DD077A2C4FF32000CDFA0C /* NewsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD07782C4FF32000CDFA0C /* NewsCVC.xib */; };
 		16DD077D2C4FF99300CDFA0C /* NewsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD077B2C4FF99300CDFA0C /* NewsTVC.swift */; };
 		16DD077E2C4FF99300CDFA0C /* NewsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD077C2C4FF99300CDFA0C /* NewsTVC.xib */; };
+		16DD07822C51466E00CDFA0C /* AcaraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD07802C51466E00CDFA0C /* AcaraVC.swift */; };
+		16DD07832C51466E00CDFA0C /* AcaraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD07812C51466E00CDFA0C /* AcaraVC.xib */; };
 		16DE23532C11F39E005E3BF1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23522C11F39E005E3BF1 /* Poppins-Regular.ttf */; };
 		16DE23552C11F3A7005E3BF1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23542C11F3A7005E3BF1 /* Poppins-SemiBold.ttf */; };
 		16DE23572C11F3AF005E3BF1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DE23562C11F3AF005E3BF1 /* Poppins-Medium.ttf */; };
@@ -91,12 +97,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16032FAE2C5150F40027A401 /* CalendarTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTVC.swift; sourceTree = "<group>"; };
+		16032FAF2C5150F40027A401 /* CalendarTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarTVC.xib; sourceTree = "<group>"; };
+		16032FB22C5154640027A401 /* CalendarEventCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventCVC.swift; sourceTree = "<group>"; };
+		16032FB32C5154640027A401 /* CalendarEventCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarEventCVC.xib; sourceTree = "<group>"; };
 		16DD07722C4FF17100CDFA0C /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
 		16DD07732C4FF17100CDFA0C /* NewsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsVC.xib; sourceTree = "<group>"; };
 		16DD07772C4FF32000CDFA0C /* NewsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCVC.swift; sourceTree = "<group>"; };
 		16DD07782C4FF32000CDFA0C /* NewsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCVC.xib; sourceTree = "<group>"; };
 		16DD077B2C4FF99300CDFA0C /* NewsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTVC.swift; sourceTree = "<group>"; };
 		16DD077C2C4FF99300CDFA0C /* NewsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTVC.xib; sourceTree = "<group>"; };
+		16DD07802C51466E00CDFA0C /* AcaraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaraVC.swift; sourceTree = "<group>"; };
+		16DD07812C51466E00CDFA0C /* AcaraVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcaraVC.xib; sourceTree = "<group>"; };
 		16DE23522C11F39E005E3BF1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		16DE23542C11F3A7005E3BF1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		16DE23562C11F3AF005E3BF1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -190,6 +202,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16032FAD2C5150B00027A401 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				16032FAE2C5150F40027A401 /* CalendarTVC.swift */,
+				16032FAF2C5150F40027A401 /* CalendarTVC.xib */,
+				16032FB22C5154640027A401 /* CalendarEventCVC.swift */,
+				16032FB32C5154640027A401 /* CalendarEventCVC.xib */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		16DD07712C4FF13100CDFA0C /* News */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +232,16 @@
 				16DD07782C4FF32000CDFA0C /* NewsCVC.xib */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		16DD077F2C51464500CDFA0C /* Acara */ = {
+			isa = PBXGroup;
+			children = (
+				16DD07802C51466E00CDFA0C /* AcaraVC.swift */,
+				16DD07812C51466E00CDFA0C /* AcaraVC.xib */,
+				16032FAD2C5150B00027A401 /* Content */,
+			);
+			path = Acara;
 			sourceTree = "<group>";
 		};
 		16E980CB2C352560002089F7 /* Content */ = {
@@ -305,6 +338,7 @@
 				16E980D42C3543C6002089F7 /* Sosial */,
 				16DD07712C4FF13100CDFA0C /* News */,
 				531546252C0F00780065F8D0 /* Profile */,
+				16DD077F2C51464500CDFA0C /* Acara */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -681,9 +715,11 @@
 				531546162C0ECA4E0065F8D0 /* ClosestEventTVC.xib in Resources */,
 				531545EC2C0D799A0065F8D0 /* CalendarVC.xib in Resources */,
 				5388DDBC2C116AAD00A58688 /* MyNewsVC.xib in Resources */,
+				16032FB52C5154640027A401 /* CalendarEventCVC.xib in Resources */,
 				531546342C0F19170065F8D0 /* FeedsTVC.xib in Resources */,
 				5388DDB52C107A3500A58688 /* ChangeProfileVC.xib in Resources */,
 				16DD077A2C4FF32000CDFA0C /* NewsCVC.xib in Resources */,
+				16032FB12C5150F40027A401 /* CalendarTVC.xib in Resources */,
 				531545B92C0C8BB00065F8D0 /* Base in Resources */,
 				531545E22C0D67F20065F8D0 /* Registration2VC.xib in Resources */,
 				531545FF2C0DAA580065F8D0 /* OtpVC.xib in Resources */,
@@ -695,6 +731,7 @@
 				531545DC2C0D60DC0065F8D0 /* RegistrationVC.xib in Resources */,
 				16DE23572C11F3AF005E3BF1 /* Poppins-Medium.ttf in Resources */,
 				531546072C0DB6710065F8D0 /* HomeVC.xib in Resources */,
+				16DD07832C51466E00CDFA0C /* AcaraVC.xib in Resources */,
 				16DE23532C11F39E005E3BF1 /* Poppins-Regular.ttf in Resources */,
 				5388DDA92C10639400A58688 /* DeleteModalVC.xib in Resources */,
 				531546102C0EB89A0065F8D0 /* MainContentCVC.xib in Resources */,
@@ -776,9 +813,12 @@
 				531545F22C0D81CB0065F8D0 /* ListVC.swift in Sources */,
 				531546002C0DAA580065F8D0 /* OtpVC.swift in Sources */,
 				531545B22C0C8BB00065F8D0 /* AppDelegate.swift in Sources */,
+				16032FB02C5150F40027A401 /* CalendarTVC.swift in Sources */,
 				16E980E12C3551E0002089F7 /* GroupTVC.swift in Sources */,
 				531545E12C0D67F20065F8D0 /* Registration2VC.swift in Sources */,
+				16032FB42C5154640027A401 /* CalendarEventCVC.swift in Sources */,
 				531546112C0EB89A0065F8D0 /* MainContentCVC.swift in Sources */,
+				16DD07822C51466E00CDFA0C /* AcaraVC.swift in Sources */,
 				16E980DB2C3544DA002089F7 /* CustomSegmentedControl.swift in Sources */,
 				531546172C0ECA4E0065F8D0 /* ClosestEventTVC.swift in Sources */,
 				531545D32C0C968C0065F8D0 /* LoginVC.swift in Sources */,

@@ -19,7 +19,7 @@ class TabBarMenu: UITabBarController {
         let vc2 = SosialVC()
         let vc3 = HomeVC()
         let vc4 = NewsVC()
-        let vc5 = HomeVC()
+        let vc5 = AcaraVC()
         
         vc1.title = "Beranda"
         vc2.title = "Sosial"
